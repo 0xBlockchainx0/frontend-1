@@ -1,13 +1,45 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Frontend</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Crypto Trading Overview and Analysis Platform</title>
+  <base href="">
+  <!-- load Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons%7CPlayfair+Display:400,400i,700%7CRoboto+Condensed:400,700"
+    rel="stylesheet">
+  <!-- Crypto Styles -->
+  <link id="crypto-stylesheet" rel="stylesheet" href="/assets/css/night-gold-orange.css">
+  <!-- page specific CSS -->
+
 </head>
-<body>
+
+<body class="mdc-typography pace-on mdc-theme--background crypro-theme-gradient">
   <app-root></app-root>
+
+
 </body>
+<script type="module" src="assets/js/web3/w3m-wc.js"></script>
+<script type="text/javascript" src="https://unpkg.com/web3@1.2.11/dist/web3.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/web3modal@1.9.0/dist/index.js"></script>
+<script type="text/javascript" src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
+<script type="text/javascript"
+  src="https://unpkg.com/@walletconnect/web3-provider@1.2.1/dist/umd/index.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/fortmatic@2.0.6/dist/fortmatic.js"></script>
+
+<script type="text/javascript" type="module" src="assets/js/web3/w3m-core.js"></script>
+<!-- initialise material components js -->
+<script src="/assets/js/material-components-web.min.js"></script>
+<script>mdc.autoInit()</script>
+<!-- initialise marquee js -->
+<script src="/assets/js/marquee3k.js"></script>
+<script>Marquee3k.init()</script>
+<!-- layout js -->
+<script data-pace-options='{ "ajax": false, "restartOnRequestAfter": false }' src="/assets/js/pace.min.js"></script>
+<script src="/assets/js/apexcharts.min.js"></script>
+
+
 </html>
